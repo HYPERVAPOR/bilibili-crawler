@@ -1,6 +1,7 @@
 # 项目介绍
 
-本项目是一个根据关键字列表爬取 Bilibili 视频信息的后端应用。原理是使用 axios 进行 HTTP 请求，并利用 cheerio 解析返回的 HTML 数据。可以爬取的视频信息包括：
+- [Click here for English version.](README.en.md)
+  本项目是一个根据关键字列表爬取 Bilibili 视频信息的后端应用。原理是使用 axios 进行 HTTP 请求，并利用 cheerio 解析返回的 HTML 数据。可以爬取的视频信息包括：
 
 - **标题**
 - **链接**
