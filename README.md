@@ -19,7 +19,7 @@
 }
 ```
 
-### 预期响应
+### 预期响应示例
 
 ```json
 [
@@ -27,12 +27,12 @@
     "tag": "人工智能",
     "result": [
       {
-        "title": "【Fairy翻唱】来自六分街的《怪物》",
-        "link": "https://www.bilibili.com/video/BV1BkyXYcEJc/",
-        "cover": "https://i0.hdslb.com/bfs/archive/6d1236b6668a3161848c95ed484a5cac8d2d13a4.jpg@672w_378h_1c_!web-search-common-cover",
-        "author": "",
-        "views": "4.2万",
-        "duration": "03:25",
+        "title": "人工智能发展史，AI的进化革新之路",
+        "link": "https://www.bilibili.com/video/BV15q421A7tB/",
+        "cover": "https://i2.hdslb.com/bfs/archive/53659a990006e6a54aab0e1572ffe2f2110583aa.jpg@672w_378h_1c_!web-search-common-cover",
+        "author": "脉冲星科技",
+        "views": "5.9万",
+        "duration": "08:47",
         "source": "bilibili"
       },
       {
@@ -44,7 +44,6 @@
         "duration": "21:16",
         "source": "bilibili"
       }
-      //...
     ]
   },
   {
