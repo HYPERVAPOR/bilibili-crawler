@@ -1,6 +1,7 @@
-# 项目介绍
+# 概述
 
-[Click here for English version.](README.en.md)  
+## 项目介绍
+
 本项目是一个根据关键字列表爬取 Bilibili 视频信息的后端应用。原理是使用 axios 进行 HTTP 请求，并利用 cheerio 解析返回的 HTML 数据。可以爬取的视频信息包括：
 
 - **标题**
@@ -10,9 +11,31 @@
 - **播放量**
 - **时长**
 
+## 快速开始
+
+请按照以下步骤快速启动项目：
+
+```bash
+# 克隆此项目
+git clone https://github.com/HYPERVAPOR/bilibili-crawler
+
+# 进入此目录
+cd bilibili-crawler
+
+# 安装依赖（推荐使用 pnpm）
+pnpm i
+
+# 启动服务
+pnpm start
+```
+
+接下来，您可以使用 **POSTMAN** 或您的前端应用发送请求进行调试。
+
+## 使用示例
+
 运行此项目后，默认监听 **3000** 端口。您可以通过向 `http://127.0.0.1:3000/api/scrape` 发送 POST 请求来获取数据。
 
-### 请求体示例
+请求体示例：
 
 ```json
 {
@@ -20,7 +43,7 @@
 }
 ```
 
-### 预期响应示例
+预期响应示例：
 
 ```json
 [
@@ -73,26 +96,6 @@
 ]
 ```
 
-# 快速开始
-
-请按照以下步骤快速启动项目：
-
-```bash
-# 克隆此项目
-git clone https://github.com/HYPERVAPOR/bilibili-crawler
-
-# 进入此目录
-cd bilibili-crawler
-
-# 安装依赖（推荐使用 pnpm）
-pnpm i
-
-# 启动服务
-pnpm start
-```
-
-接下来，您可以使用 **POSTMAN** 或您的前端应用发送请求进行调试。
-
 # 常见问题
 
 ## 如何更改默认监听端口
@@ -121,7 +124,13 @@ function determineK(length) {
 }
 ```
 
-# 免责声明
+# 使用须知
+
+## 开源协议
+
+本项目使用 MIT 协议，允许用户自由使用、复制、修改和分发。
+
+## 使用条款
 
 使用本项目即表示您已阅读、理解并同意以下条款：
 
